@@ -19,4 +19,7 @@ A C program that prints exactly "Programming is like building a multilingual puz
 A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
 
 6. Size is not grandeur, and territory does not make a nation
-A C program that prints the size of various types on the computer it is compiled and run on
+A C program that prints the size of various types on the computer it is compiled and run o
+
+7. Intel
+A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.n
