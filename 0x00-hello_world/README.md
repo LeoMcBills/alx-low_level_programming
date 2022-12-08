@@ -23,3 +23,5 @@ A C program that prints the size of various types on the computer it is compiled
 
 7. Intel
 A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.n
+
+UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
