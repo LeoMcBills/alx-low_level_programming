@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Using puts to display a string
+ * Return: Always 0 (success)
  */
 
 int main(void)
