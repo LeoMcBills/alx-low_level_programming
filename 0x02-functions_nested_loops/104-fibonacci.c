@@ -29,7 +29,7 @@ int main(void)
 			y = l, l = b;
 			printf("%lu", l);
 		}
-		if(n != 97)
+		if (n != 97)
 			printf(", ");
 	}
 	printf("\n");
