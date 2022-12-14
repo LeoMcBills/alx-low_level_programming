@@ -16,7 +16,7 @@ int main(void)
 	{
 		total = x + y;
 		printf("%ld", total);
-		if (z != 0)
+		if (z != 49)
 		{
 			printf(", ");
 		}
