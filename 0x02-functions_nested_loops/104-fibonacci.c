@@ -1,49 +1,36 @@
 #include <stdio.h>
+#define MAX 10000000000
 /**
- * main - prints first 98 Fibonacci
+ * main - Entry point
  * Return: Always 0
  */
 
 int main(void)
 {
-	long int a, b, c, x, y, z, n, m, nm, total;
+	unsigned long int x = 0, y = 1, z = 0, l = 2;
+	unsigned long int a, b, c;
+	int n;
 
-	a = 0;
-	b = 1;
-	total = 0;
-	for (c = 0; c < 91; c++)
+	printf("%lu, %lu, ", y, l);
+	for (n = 2; n < 98; n++)
 	{
-		total = a + b;
-		printf("%ld", total);
-		if (c != 97)
+		if (y + l > MAX || z > 0 || x > 0)
 		{
+			a = (y + l) / MAX;
+			b = (y + l) % MAX;
+			c = x + z + a;
+			x = z, z = c;
+			y = l, l = b;
+			printf("%lu%010lu", z, l);
+		}
+		else
+		{
+			b = y + l;
+			y = l, l = b;
+			printf("%lu", l);
+		}
+		if(n != 97)
 			printf(", ");
-		}
-		a = b;
-		b = total;
-	}
-	x = a / 1000000000;
-	y = a % 1000000000;
-	z = b / 1000000000;
-	n = b % 1000000000;
-	while (c < 98)
-	{
-		m = x + z;
-		nm = y + n;
-		if (nm >= 1000000000)
-		{
-			nm %= 1000000000;
-			m++;
-		}
-		printf("%ld%ld", m, nm);
-		if (c == 97)
-			break;
-		printf(", ");
-		x = z;
-		y = n;
-		z = m;
-		n = nm;
-		c++;
 	}
 	printf("\n");
 	return (0);
