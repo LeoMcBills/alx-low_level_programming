@@ -9,3 +9,6 @@ This function checks for if the passed argument is a digit or not and returns 1 
 2. Collaboration is multiplication
 This function passes in two arguments, multiplies them to each other and returns their result.
 
+3. The numbers speak for themselves
+This function prints out all numbers from 0 to and also including 9 then jumps to the next line.
+
