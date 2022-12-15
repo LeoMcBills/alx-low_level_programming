@@ -21,3 +21,6 @@ This function prints numbers 0 to 14 ten times followed by a new line.
 6. The shortest distance between two points is a straight line
 The function draws a straight line in the terminal.
 
+7. I feel like I am diagonally parked in a parallel universe
+This is a function that draws a diagonal line on the terminal.
+
