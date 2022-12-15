@@ -12,3 +12,6 @@ This function passes in two arguments, multiplies them to each other and returns
 3. The numbers speak for themselves
 This function prints out all numbers from 0 to and also including 9 then jumps to the next line.
 
+4. I believe in numbers and signs
+This function is similar to the function we have just seen but the difference is that this one doesn't print 2 and 4 in the series.
+
