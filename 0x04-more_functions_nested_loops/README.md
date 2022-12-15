@@ -15,3 +15,6 @@ This function prints out all numbers from 0 to and also including 9 then jumps t
 4. I believe in numbers and signs
 This function is similar to the function we have just seen but the difference is that this one doesn't print 2 and 4 in the series.
 
+5. Numbers constitute the only universal language
+This function prints numbers 0 to 14 ten times followed by a new line.
+
