@@ -30,3 +30,6 @@ This function prints a square followed by a line.
 9. Fizz-Buzz
 In this program, I tried my knowledge of pointers for the job and it did me more good than harm. Pointers automatically map the characters assigned to them, to a particular address of memory and this data can be retrieved easily using the pointer again.
 
+10. Triangles
+A function that prints a triangle, followed by a new line.
+
