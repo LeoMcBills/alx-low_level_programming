@@ -18,3 +18,6 @@ This function is similar to the function we have just seen but the difference is
 5. Numbers constitute the only universal language
 This function prints numbers 0 to 14 ten times followed by a new line.
 
+6. The shortest distance between two points is a straight line
+The function draws a straight line in the terminal.
+
