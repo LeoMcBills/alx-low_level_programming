@@ -1,21 +1,21 @@
 #include "main.h"
 /**
- * print_number - prints integer number
- * @n: The argument passed to the function is of integer type
+ * print_number - Prints a number
+ * @n: The number to print out
  */
 
 void print_number(int n)
 {
-	signed int x = n;
+	unsigned int num = n;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		x = -x;
+		num = -num;
 	}
-	if (x > 9)
+	if (num > 9)
 	{
-		print_number(x / 10);
+		print_number(num / 10);
 	}
-	_putchar(x % 10 + '0');
+	_putchar(num % 10 + '0');
 }
