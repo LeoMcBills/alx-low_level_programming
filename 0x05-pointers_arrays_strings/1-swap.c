@@ -3,7 +3,6 @@
  * swap_int - swaps two values of two integers
  * @a: first number parameter
  * @b: second number pointer variable parameter
- * @c: pointer c
  * Return: None
  */
 
