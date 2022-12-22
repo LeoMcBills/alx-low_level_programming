@@ -9,15 +9,17 @@ char *leet(char *str)
 {
 	int i = 0, j;
 
-	char leet[9] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T', '\n'};
+	char lower[] = {'a', 'e', 'o', 't', 'l', '\0'};
+	char upper[] = {'A', 'E', 'O', 'T', 'L', '\0'};
+	char num[] = {'4', '3', '0', '7', '1', '\0'};
 
-	while (str[++i])
+	for (; str[i] != '\0'; ++i)
 	{
-		for (j = 0; j <= 7; j++)
+		for (j = 0; j < 5; j++)
 		{
-			if (str[i] == leet[j] || str[i] - 32 == leet[j])
+			if (str[i] == lower[j] || str[i] == upper[j])
 			{
-				str[i] = j + '0';
+				str[i] = num[j];
 			}
 		}
 	}
