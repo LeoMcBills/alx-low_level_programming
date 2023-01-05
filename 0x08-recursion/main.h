@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 
+int pal(char *a, int l);
+int palind(char *a, int l);
 int prime1(int x, int y);
 int sqrt2(int x, int y);
 int _putchar(int c);
