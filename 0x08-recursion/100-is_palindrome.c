@@ -24,7 +24,7 @@ int pal(char *a, int l)
 
 int palind(char *a, int l)
 {
-	if (*a != (a + l))
+	if (*a != *(a + l))
 	{
 		return (0);
 	}
