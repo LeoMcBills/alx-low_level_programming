@@ -19,7 +19,6 @@ struct dog
 /**
  * dogger - typedef for struct dog
  */
-
 typedef struct dog dogger;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
