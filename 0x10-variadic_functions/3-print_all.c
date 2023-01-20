@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
@@ -9,7 +9,7 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *string, *str = "";
+	char *str, *spa = "";
 
 	va_list list;
 
@@ -22,25 +22,25 @@ void print_all(const char * const format, ...)
 			switch (format[i])
 			{
 				case 'c':
-					printf("%s%c", str, va_arg(list, int));
+					printf("%s%c", spa, va_arg(list, int));
 					break;
 				case 'i':
-					printf("%s%d", str, va_arg(list, int));
+					printf("%s%d", spa, va_arg(list, int));
 					break;
 				case 'f':
-					printf("%s%f", str, va_arg(list, double));
+					printf("%s%f", spa, va_arg(list, double));
 					break;
 				case 's':
-					string = va_arg(list, char *);
-					if (!string)
-						string = "(nil)";
-					printf("%s%s", str, string);
+					str = va_arg(list, char *);
+					if (!str)
+						str = "(nil)";
+					printf("%s%s", spa, str);
 					break;
 				default:
 					i++;
 					continue;
 			}
-			str = ",";
+			spa = ", ";
 			i++;
 		}
 	}
