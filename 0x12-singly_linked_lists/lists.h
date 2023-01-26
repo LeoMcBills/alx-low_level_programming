@@ -18,7 +18,7 @@ void free_list(list_t *head);
  * @next: A pointer to the next node
  */
 typedef struct list_s {
-	char "str;
+	char *str;
 	unsigned int len;
 	struct list_s *next;
 }list_t;
