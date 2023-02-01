@@ -8,6 +8,7 @@ listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *snd = head;
 	listint_t *light = head;
+
 	if (!head)
 		return (NULL);
 	while (snd && light && light->next)
