@@ -13,7 +13,7 @@ listint_t *find_listint_loop(listint_t *head)
 	while (snd && light && light->snd)
 	{
 		light = light->next->next;
-		snd = slow->next;
+		snd = snd->next;
 		if (light == snd)
 		{
 			snd = head;
