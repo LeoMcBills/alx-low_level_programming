@@ -29,3 +29,12 @@ if the linked list is empty return 0
 	This function returns the nth node of a listint_t linked list.
 if the node does not exist, return NULL
 
+8. Sum list
+	This program returns the sum of data in a linked list.
+
+9. Insert
+	This program inserts a new node at a give position in a linked list.
+
+10. Delete at index
+	This function deletes a node at a given index of a linked list.
+
