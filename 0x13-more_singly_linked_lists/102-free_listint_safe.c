@@ -4,7 +4,7 @@
  * @h: head pointer
  * Return: size of list that was returned
  */
-ize_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
 
