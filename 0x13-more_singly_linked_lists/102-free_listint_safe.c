@@ -4,11 +4,11 @@
  * @h: head pointer
  * Return: size of list that was returned
  */
-size_t free_listint_safe(listint_t **h)
+ize_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
 
-	int diff;
+	int uni;
 
 	listint_t *temp;
 
@@ -16,8 +16,8 @@ size_t free_listint_safe(listint_t **h)
 		return (0);
 	while (*h)
 	{
-		diff = *h - (*h)->next;
-		if (diff > 0)
+		uni = *h - (*h)->next;
+		if (uni > 0)
 		{
 			temp = (*h)->next;
 			free(*h);
